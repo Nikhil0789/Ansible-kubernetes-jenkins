@@ -82,21 +82,29 @@
       <option name="project" value="LOCAL" />
       <updated>1581176315919</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="    changed git url">
+      <created>1581176557630</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1581176557630</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Changed Jenkinsfile for gitpath" />
     <MESSAGE value="changed credentials id for github" />
     <MESSAGE value="changed git url" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed git url" />
+    <MESSAGE value="    changed git url" />
+    <option name="LAST_COMMIT_MESSAGE" value="    changed git url" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="337" y="0" key="CommitChangelistDialog2" timestamp="1581176314739">
+    <state x="337" y="0" key="CommitChangelistDialog2" timestamp="1581176556293">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="337" y="0" key="CommitChangelistDialog2/0.0.1366.728/1366.0.1440.860@0.0.1366.728" timestamp="1581073398082" />
-    <state x="337" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1581176314739" />
+    <state x="337" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1581176556293" />
     <state x="263" y="99" key="IDE.errors.dialog" timestamp="1581065030384">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
