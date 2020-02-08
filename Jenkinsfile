@@ -15,7 +15,9 @@ pipeline {
         }
         // sh 'terraform -version'
         dir("Terraform")
+        {
         sh 'terraform init'
+        }
     }
     }
 
