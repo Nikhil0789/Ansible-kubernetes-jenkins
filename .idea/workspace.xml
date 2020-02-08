@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bbe957b3-5146-41ee-8561-9e1f40493ed0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,6 +21,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TF_FMT" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
@@ -39,9 +41,25 @@
       <option name="presentableId" value="Default" />
       <updated>1580973038920</updated>
     </task>
+    <task id="LOCAL-00001" summary="Changed Jenkinsfile for gitpath">
+      <created>1581073399199</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1581073399199</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Changed Jenkinsfile for gitpath" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed Jenkinsfile for gitpath" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="337" y="0" key="CommitChangelistDialog2" timestamp="1581073398082">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="337" y="0" key="CommitChangelistDialog2/0.0.1366.728/1366.0.1440.860@0.0.1366.728" timestamp="1581073398082" />
     <state x="263" y="99" key="IDE.errors.dialog" timestamp="1581065030384">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
