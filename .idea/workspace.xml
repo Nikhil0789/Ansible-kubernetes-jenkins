@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="bbe957b3-5146-41ee-8561-9e1f40493ed0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +90,21 @@
       <option name="project" value="LOCAL" />
       <updated>1581176557630</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="changed terraform version command">
+      <created>1581176771856</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1581176771856</updated>
+    </task>
+    <task id="LOCAL-00009" summary="changed terraform version command">
+      <created>1581176843876</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1581176843876</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -97,14 +112,15 @@
     <MESSAGE value="changed credentials id for github" />
     <MESSAGE value="changed git url" />
     <MESSAGE value="    changed git url" />
-    <option name="LAST_COMMIT_MESSAGE" value="    changed git url" />
+    <MESSAGE value="changed terraform version command" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed terraform version command" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="337" y="0" key="CommitChangelistDialog2" timestamp="1581176770158">
+    <state x="337" y="0" key="CommitChangelistDialog2" timestamp="1581176842279">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="337" y="0" key="CommitChangelistDialog2/0.0.1366.728/1366.0.1440.860@0.0.1366.728" timestamp="1581073398082" />
-    <state x="337" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1581176770158" />
+    <state x="337" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1581176842279" />
     <state x="263" y="99" key="IDE.errors.dialog" timestamp="1581065030384">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
