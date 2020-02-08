@@ -160,7 +160,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581179550869</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="changed terraform version command">
+      <created>1581179662606</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1581179662606</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -172,11 +179,11 @@
     <option name="LAST_COMMIT_MESSAGE" value="changed terraform version command" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="337" y="0" key="CommitChangelistDialog2" timestamp="1581179549356">
+    <state x="337" y="0" key="CommitChangelistDialog2" timestamp="1581179661151">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="337" y="0" key="CommitChangelistDialog2/0.0.1366.728/1366.0.1440.860@0.0.1366.728" timestamp="1581073398082" />
-    <state x="337" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1581179549356" />
+    <state x="337" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1581179661151" />
     <state x="263" y="99" key="IDE.errors.dialog" timestamp="1581065030384">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -185,10 +192,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="7" key="SettingsEditor/0.0.1366.728/1366.0.1440.860@0.0.1366.728" timestamp="1580973284002" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1581179559874">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1581179671875">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1581179559874" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1581179671875" />
     <state x="339" y="162" key="run.anything.popup" timestamp="1581062880697">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
