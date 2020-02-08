@@ -4,7 +4,7 @@ pipeline {
  stages {
  stage('checkout') {
  steps {
- git branch: 'master', credentialsId: '5750d59c-eec8-4ddf-b967-8d1ae9185416', url: 'git@github.com/Nikhil0789/Ansible-kubernetes-jenkins.git'
+ git branch: 'master', credentialsId: '5750d59c-eec8-4ddf-b967-8d1ae9185416', url: 'ssh://git@github.com/Nikhil0789/Ansible-kubernetes-jenkins.git'
 
  }
  }
