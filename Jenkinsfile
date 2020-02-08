@@ -14,7 +14,8 @@ pipeline {
         env.PATH = "${tfHome}:${env.PATH}"
         }
         // sh 'terraform -version'
-        sh 'echo this is my name'
+        sh 'cd Terraform'
+        sh 'terraform init'
     }
     }
 
