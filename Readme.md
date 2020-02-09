@@ -1,5 +1,5 @@
 [vpc]
-1 vpc - kubernetes  - ${var.vpc_name}
+1 vpc - kubernetes  - var.vpc_name}
 1 dhcp options set
 1 link dhcp options set to vpc
 
@@ -56,8 +56,8 @@
 
 [controller]
 ec2 instance conteoller   count-3 , subnet - kubernetes , private ip  sg id - kubernetes
-aws elb - kubernetes_api
-1 sg - kubernetes_api  - ${var.elb_name}
+aws elb - 
+1 sg -   - ${var.elb_name}
 1 sg rule association to egress all from world 
 1 sg rule association to igress from control host[publicip] - 6443
 1 sg rule association ro igress from jump host [jump.public_ip]-6443

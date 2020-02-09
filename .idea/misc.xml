@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectPlainTextFileTypeManager">
+    <file url="file://$PROJECT_DIR$/ansible/hosts/ec2.ini" />
+    <file url="file://$PROJECT_DIR$/ansible/hosts/ec2.py" />
+    <file url="file://$PROJECT_DIR$/ansible/hosts/ec2.py" />
+    <file url="file://$PROJECT_DIR$/terraform/template/ansible.cfg.tpl" />
+    <file url="file://$PROJECT_DIR$/terraform/template/ec2.ini.tpl" />
+    <file url="file://$PROJECT_DIR$/terraform/template/kubernetes-csr.json.tpl" />
+    <file url="file://$PROJECT_DIR$/terraform/template/ssh.cfg.tpl" />
+    <file url="file://$PROJECT_DIR$/terraform/template/vars.yml.tpl" />
+  </component>
+</project>

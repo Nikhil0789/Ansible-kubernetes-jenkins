@@ -1,12 +1,12 @@
 # Key
 
 variable ssh_private_key_path {
-  type = "string"
+  type = string
   description = "Path where the private key for SSH is stored"
 }
 
 variable default_keypair_name {
-  type = "string"
+  type = string
   description = "Name of the keypair which should be used for the hosts (Must already exist in AWS)"
 }
 
@@ -19,18 +19,18 @@ variable custom_tags {
 
 variable ansibleFilter {
   description = "`ansibleFilter` tag value added to all instances, to enable instance filtering in Ansible dynamic inventory"
-  type = "string"
+  type = string
 }
 
 # AWS Regions / Zones
 
 variable region {
-  type = "string"
+  type = string
   description = "AWS region which should be used"
 }
 
 variable zone {
-  type = "string"
+  type = string
   description = "AWS AZ (Availability zone) which should be used"
 }
 
@@ -38,48 +38,48 @@ variable zone {
 
 variable vpc_name {
   description = "Name of the VPC"
-  type = "string"
+  type = string
 }
 
 variable elb_name {
   description = "Name of the ELB for Kubernetes API"
-  type = "string"
+  type = string
 }
 
 # Network details (Change this only if you know what you are doing or if you think you are lucky)
 
 variable vpc_cidr {
-  type = "string"
+  type = string
   description = ""
 }
 
 variable vpc_public_subnet_cidr {
-  type = "string"
+  type = string
   description = ""
 }
 
 variable vpc_private_subnet_cidr {
-  type = "string"
+  type = string
   description = ""
 }
 
 variable kubernetes_service_cluster_cidr {
-  type = "string"
+  type = string
   description = ""
 }
 
 variable kubernetes_pod_cidr {
-  type = "string"
+  type = string
   description = ""
 }
 
 variable kubernetes_cluster_api {
-  type = "string"
+  type = string
   description = "Internal IP address of the Kubernetes API"
 }
 
 variable kubernetes_cluster_dns {
-  type = "string"
+  type = string
   description = "Internal IP address of kubernetes's own DNS server"
 }
 
@@ -99,12 +99,12 @@ variable api_access_cidr {
 
 variable default_ami {
   description = "Default AMI for all nodes"
-  type = "string"
+  type = string
 }
 
 variable default_instance_user {
   description = "User which should be used to connect to the hosts (Depends on the AMI)"
-  type = "string"
+  type = string
 }
 
 variable instance_types {
@@ -115,15 +115,15 @@ variable instance_types {
 # Passwords
 variable admin_password {
   description = "Password for the admin user"
-  type = "string"
+  type = string
 }
 
 variable kubelet_password {
   description = "Password for the admin user"
-  type = "string"
+  type = string
 }
 
 variable scheduler_password {
   description = "Password for the admin user"
-  type = "string"
+  type = string
 }
