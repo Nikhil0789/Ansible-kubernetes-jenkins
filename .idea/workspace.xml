@@ -2,44 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bbe957b3-5146-41ee-8561-9e1f40493ed0" name="Default Changelist" comment="Added templates and tf files for ansible&#10;vpc and other tf files">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ansible/ansible.cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ansible/hosts/ec2.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ansible/hosts/ec2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/terraform/.terraform/plugins/windows_amd64/lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/terraform/.terraform/plugins/windows_amd64/terraform-provider-aws_v2.48.0_x4.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/terraform/.terraform/plugins/windows_amd64/terraform-provider-null_v2.1.2_x4.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/terraform/.terraform/plugins/windows_amd64/terraform-provider-template_v2.1.2_x4.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/terraform/ansiblecfg.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/terraform/aws.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/terraform/certificates.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/terraform/ec2ini.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/terraform/jump-host.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/terraform/k8_controllers.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/terraform/k8_etcd.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/terraform/k8_workers.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/terraform/sshcfg.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/terraform/template/ansible.cfg.tpl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/terraform/template/ec2.ini.tpl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/terraform/template/kubernetes-csr.json.tpl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/terraform/template/ssh.cfg.tpl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/terraform/template/vars.yml.tpl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/terraform/varsgen.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/terraform/vpc.tf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ansible/initial.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ansible/kube-dependencies.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ansible/master.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ansible/workers.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Terraform/iam.tf" beforeDir="false" afterPath="$PROJECT_DIR$/terraform/iam.tf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Terraform/jump-host.tf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Terraform/k8_controllers.tf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Terraform/k8_etcd.tf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Terraform/k8_workers.tf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Terraform/variables.tf" beforeDir="false" afterPath="$PROJECT_DIR$/terraform/variables.tf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Terraform/vpc.tf" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -225,7 +188,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581180014981</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Added templates and tf files for ansible&#10;vpc and other tf files">
+      <created>1581230669628</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1581230669628</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -251,11 +221,11 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="430" y="220" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1366.728@0.0.1366.728" timestamp="1581187494687" />
-    <state x="337" y="0" key="CommitChangelistDialog2" timestamp="1581230637374">
+    <state x="337" y="0" key="CommitChangelistDialog2" timestamp="1581234305851">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="337" y="0" key="CommitChangelistDialog2/0.0.1366.728/1366.0.1440.860@0.0.1366.728" timestamp="1581073398082" />
-    <state x="337" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1581230637374" />
+    <state x="337" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1581234305851" />
     <state x="463" y="106" key="FileChooserDialogImpl" timestamp="1581180712580">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -269,10 +239,10 @@
     </state>
     <state x="184" y="7" key="SettingsEditor/0.0.1366.728/1366.0.1440.860@0.0.1366.728" timestamp="1580973284002" />
     <state x="184" y="7" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1581229694628" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1581179671875">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1581230746163">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1581179671875" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1581230746163" />
     <state x="378" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1581180823523">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
