@@ -1,14 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="bbe957b3-5146-41ee-8561-9e1f40493ed0" name="Default Changelist" comment="Added templates and tf files for ansible&#10;vpc and other tf files">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+=======
+    <list default="true" id="bbe957b3-5146-41ee-8561-9e1f40493ed0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
+>>>>>>> 002fa340ff790e9f0d3cb4e71d8d90b9d38f2cd1
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+<<<<<<< HEAD
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -16,19 +23,25 @@
       </list>
     </option>
   </component>
+=======
+>>>>>>> 002fa340ff790e9f0d3cb4e71d8d90b9d38f2cd1
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1XQKmgrMb3uAvaYtI1DgVLx4PvX" />
+<<<<<<< HEAD
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+=======
+>>>>>>> 002fa340ff790e9f0d3cb4e71d8d90b9d38f2cd1
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+<<<<<<< HEAD
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -41,6 +54,15 @@
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\nikgupta5\ansible-k8-jenkins\Terraform" />
+=======
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TF_FMT" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+>>>>>>> 002fa340ff790e9f0d3cb4e71d8d90b9d38f2cd1
       <recent name="C:\Users\nikgupta5\ansible-k8-jenkins\Ansible" />
     </key>
   </component>
@@ -174,6 +196,7 @@
       <option name="project" value="LOCAL" />
       <updated>1581179550869</updated>
     </task>
+<<<<<<< HEAD
     <task id="LOCAL-00018" summary="changed terraform version command">
       <created>1581179662606</created>
       <option name="number" value="00018" />
@@ -200,11 +223,18 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+=======
+    <option name="localTasksCounter" value="18" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+>>>>>>> 002fa340ff790e9f0d3cb4e71d8d90b9d38f2cd1
     <MESSAGE value="Changed Jenkinsfile for gitpath" />
     <MESSAGE value="changed credentials id for github" />
     <MESSAGE value="changed git url" />
     <MESSAGE value="    changed git url" />
     <MESSAGE value="changed terraform version command" />
+<<<<<<< HEAD
     <MESSAGE value="Added templates and tf files for ansible&#10;vpc and other tf files" />
     <option name="LAST_COMMIT_MESSAGE" value="Added templates and tf files for ansible&#10;vpc and other tf files" />
   </component>
@@ -230,10 +260,21 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="106" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1581180712580" />
+=======
+    <option name="LAST_COMMIT_MESSAGE" value="changed terraform version command" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="337" y="0" key="CommitChangelistDialog2" timestamp="1581179549356">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="337" y="0" key="CommitChangelistDialog2/0.0.1366.728/1366.0.1440.860@0.0.1366.728" timestamp="1581073398082" />
+    <state x="337" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1581179549356" />
+>>>>>>> 002fa340ff790e9f0d3cb4e71d8d90b9d38f2cd1
     <state x="263" y="99" key="IDE.errors.dialog" timestamp="1581065030384">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="263" y="99" key="IDE.errors.dialog/0.0.1366.728/1366.0.1440.860@0.0.1366.728" timestamp="1581065030384" />
+<<<<<<< HEAD
     <state x="184" y="7" key="SettingsEditor" timestamp="1581229694628">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -251,14 +292,31 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="0" y="0" width="736" height="728" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1581182963739" />
+=======
+    <state x="184" y="7" key="SettingsEditor" timestamp="1580973284002">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="7" key="SettingsEditor/0.0.1366.728/1366.0.1440.860@0.0.1366.728" timestamp="1580973284002" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1581179559874">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1581179559874" />
+>>>>>>> 002fa340ff790e9f0d3cb4e71d8d90b9d38f2cd1
     <state x="339" y="162" key="run.anything.popup" timestamp="1581062880697">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="339" y="162" key="run.anything.popup/0.0.1366.728/1366.0.1440.860@0.0.1366.728" timestamp="1581062880697" />
+<<<<<<< HEAD
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1581230304021">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="346" y="49" key="search.everywhere.popup/0.0.1366.728/1366.0.1440.860@0.0.1366.728" timestamp="1580974301719" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1581230304021" />
+=======
+    <state x="346" y="49" key="search.everywhere.popup" timestamp="1580974301719">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" key="search.everywhere.popup/0.0.1366.728/1366.0.1440.860@0.0.1366.728" timestamp="1580974301719" />
+>>>>>>> 002fa340ff790e9f0d3cb4e71d8d90b9d38f2cd1
   </component>
 </project>
