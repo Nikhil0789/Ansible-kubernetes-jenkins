@@ -2,8 +2,9 @@ pipeline {
     agent any
     environment {
         tfhome = tool('terraform')
+        ansible = tool('ansible')
         certpath = "/var/lib/jenkins/workspace/terraform_aws_ansible_k8/src/github.com/cloudflare/cfssl/bin"
-        PATH = "${tfhome}:${certpath}:${PATH}"
+        PATH = "${tfhome}:${certpath}:${ansible}:${PATH}"
 
     }
 
@@ -61,7 +62,16 @@ pipeline {
 
            }
 
+                 stage('run ansible') {
+                     steps {
+                         dir('ansible') {
+                             sh 'ansible-playbook infra.yaml'
+                         }
+                     }
 
+
+
+                 }
 
 
     }
