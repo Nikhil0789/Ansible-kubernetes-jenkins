@@ -106,7 +106,7 @@ resource "aws_security_group_rule" "api_allow_all_from_jump_host" {
   from_port = 6443
   to_port = 6443
   protocol = "tcp"
-  cidr_blocks = [aws_instance.jump.public_ip/32]
+  cidr_blocks = ["${aws_instance.jump.public_ip}/32"]
   security_group_id = aws_security_group.kubernetes_api.id
 }
 
