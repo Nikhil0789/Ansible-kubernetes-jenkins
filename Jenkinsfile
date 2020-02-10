@@ -63,9 +63,12 @@ pipeline {
 
            }
                  stage('init ansible') {
-                     def ansible = tool name: 'ansible'
-                     env.PATH = "${ansible}:${env.PATH}"
-
+                     steps {
+                         script {
+                             def ansible = tool name: 'ansible'
+                             env.PATH = "${ansible}:${env.PATH}"
+                         }
+                         }
                  }
 
                  stage('run ansible') {
