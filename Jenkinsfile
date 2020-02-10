@@ -4,7 +4,8 @@ pipeline {
         tfhome = tool('terraform')
         ansible = tool('ansible')
         certpath = "/var/lib/jenkins/workspace/terraform_aws_ansible_k8/src/github.com/cloudflare/cfssl/bin"
-        PATH = "${tfhome}:${certpath}:${ansible}:${PATH}"
+        PATH = "${tfhome}:${certpath}:${PATH}"
+        PATH = "${ansible}:${PATH}"
 
     }
 
