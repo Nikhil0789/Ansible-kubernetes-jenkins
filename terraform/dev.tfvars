@@ -1,5 +1,5 @@
-region = "us-east-1"
-zone = "us-east-1a"
+region = "us-west-1"
+zone = "us-west-1a"
 
 default_keypair_name = "learningaws"
 ssh_private_key_path = "/home/user/.ssh/id_aws"

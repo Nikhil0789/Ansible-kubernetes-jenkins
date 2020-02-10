@@ -4,7 +4,7 @@
 ############################################
 
 resource "aws_instance" "worker" {
-  count = 1
+  count = 3
   ami = var.default_ami
   instance_type = var.instance_types["worker"]
 
