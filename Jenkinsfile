@@ -41,9 +41,9 @@ pipeline {
                steps {
                    dir('terraform') {
                        withCredentials([usernamePassword(credentialsId: '5176c908-8ef7-4a6b-89a9-8fd8bca878eb', passwordVariable: 'AWS_SECRET_ACCESS_KEY', usernameVariable: 'AWS_ACCESS_KEY_ID')]) {
-                           // sh 'terraform plan  -var-file=dev.tfvars -out kubernetes.plan'
-                           // sh 'terraform apply   kubernetes.plan'
-                           sh 'terraform destroy -var-file=dev.tfvars  -auto-approve'
+                           sh 'terraform plan  -var-file=dev.tfvars -out kubernetes.plan'
+                           sh 'terraform apply   kubernetes.plan'
+                           // sh 'terraform destroy -var-file=dev.tfvars  -auto-approve'
                        }
 
 
