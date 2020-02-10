@@ -26,5 +26,11 @@ resource "null_resource" "ec2_ini" {
 
   provisioner "local-exec" {
     command = "echo '${ data.template_file.ec2_ini.rendered }' > ../ansible/hosts/ec2.ini"
+
+  }
+
+  provisioner "persmissions" {
+    command = "chmod 775 ../ansible/hosts/ec2*"
+
   }
 }
