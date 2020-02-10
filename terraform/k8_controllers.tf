@@ -35,7 +35,7 @@ resource "aws_instance" "controller" {
 
 resource "aws_elb" "kubernetes_api" {
   name = var.elb_name
-  instances = [aws_instance.controller.*.id]
+  instances = aws_instance.controller.*.id
   subnets = [aws_subnet.jumpnet.id]
   cross_zone_load_balancing = false
 
