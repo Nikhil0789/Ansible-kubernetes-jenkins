@@ -2,7 +2,7 @@ region = "us-east-1"
 zone = "us-east-1b"
 
 default_keypair_name = "learningaws"
-ssh_private_key_path = "/home/user/.ssh/id_aws"
+ssh_private_key_path = "../learningaws.pem"
 
 ssh_access_cidr = [
   "0.0.0.0/0"
