@@ -11,26 +11,17 @@ pipeline {
             steps {
                 script {
                     def tfHome = tool name: 'terraform'
-                    env.PATH = "{tfHome}:${env.PATH}"
+                    env.PATH = "${tfHome}:${env.PATH}"
                 }
+                // sh 'terraform -version'
+                dir("Terraform")
+                        {
+                            sh 'terraform init'
+                        }
             }
         }
-        stage('Terraform INIT')
-                {
-
-                    steps {
-                        dir("terraform")
-                                {
-                                    // withCredentials([usernamePassword(credentialsId: 'abff6f2b-1e5b-4d20-a171-4c026691922d', passwordVariable: 'AWS_SECRET_ACCESS_KEY', usernameVariable: 'AWS_ACCESS_KEY_ID')]) {
-                                        sh 'terraform init'
-                                        sh 'terraform validate'
-                                    //}
-                                }
-                    }
-                }
 
 
 
     }
-
 }
