@@ -19,7 +19,7 @@ pipeline {
 
 
 
-                                 sh "terraform -version"
+                                 sh 'terraform -version'
 
             }
         }
@@ -28,7 +28,7 @@ pipeline {
                steps {
                    dir('terraform')
                            {
-                               sh "env.tfHome/terraform init"
+                               sh 'terraform init"'
 
                            }
 
