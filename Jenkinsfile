@@ -65,6 +65,7 @@ pipeline {
                  stage('run ansible') {
                      steps {
                          dir('ansible') {
+                             sh 'ansible --version'
                              sh 'ansible-playbook infra.yaml'
                          }
                      }
