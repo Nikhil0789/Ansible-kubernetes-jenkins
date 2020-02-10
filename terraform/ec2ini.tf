@@ -29,7 +29,7 @@ resource "null_resource" "ec2_ini" {
 
   }
 
-  provisioner "persmissions" {
+  provisioner "local-exec" {
     command = "chmod 775 ../ansible/hosts/ec2*"
 
   }
