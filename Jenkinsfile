@@ -1,6 +1,10 @@
 pipeline {
     agent any
+    environment {
+        def tfHome = tool name: 'terraform'
+        env.PATH = "${tfHome}:${env.PATH}"
 
+    }
     stages {
         stage('checkout') {
             steps {
@@ -9,10 +13,7 @@ pipeline {
         }
         stage('Set Terraform path') {
             steps {
-                script {
-                    def tfHome = tool name: 'terraform'
-                    env.PATH = "${tfHome}:${env.PATH}"
-                }
+
                 // sh 'terraform -version'
                 dir("Terraform")
                         {
