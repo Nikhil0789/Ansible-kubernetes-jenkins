@@ -3,7 +3,7 @@
 ############################
 
 resource "aws_instance" "controller" {
-  count = 3
+  count = 1
   ami = var.default_ami
   instance_type = var.instance_types["controller"]
   iam_instance_profile = aws_iam_instance_profile.kubernetes-controller.id
