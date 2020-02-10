@@ -2,7 +2,8 @@ pipeline {
     agent any
     environment {
         tfhome = tool('terraform')
-        PATH = "${tfhome}:${PATH}"
+        certpath = "/var/lib/jenkins/workspace/terraform_aws_ansible_k8/src/github.com/cloudflare/cfssl/bin"
+        PATH = "${tfhome}:${certpath}:${PATH}"
 
     }
 
