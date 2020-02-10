@@ -19,11 +19,11 @@ data "template_file" "ssh_cfg" {
     etcd1_ip = aws_instance.etcd[1].private_ip
     etcd2_ip = aws_instance.etcd[2].private_ip
     controller0_ip = aws_instance.controller[0].private_ip
-    controller1_ip = aws_instance.controller[1].private_ip
-    controller2_ip = aws_instance.controller[2].private_ip
+    #controller1_ip = aws_instance.controller[1].private_ip
+    #controller2_ip = aws_instance.controller[2].private_ip
     worker0_ip = aws_instance.worker[0].private_ip
-    worker1_ip = aws_instance.worker[1].private_ip
-    worker2_ip = aws_instance.worker[2].private_ip
+    #worker1_ip = aws_instance.worker[1].private_ip
+    #worker2_ip = aws_instance.worker[2].private_ip
   }
 }
 
