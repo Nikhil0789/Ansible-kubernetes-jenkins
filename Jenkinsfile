@@ -19,7 +19,7 @@ pipeline {
 
                             script {
                                 def tfHome = tool name: 'terraform'
-                                env.PATH = "${tfHome}:${env.PATH}"
+                                env.PATH = "${tfHome}:${env.PATH}:${env.WORKSPACE}"
                             }
                            //    sh 'terraform init'
 
