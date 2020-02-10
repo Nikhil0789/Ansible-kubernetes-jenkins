@@ -71,7 +71,7 @@ aws elb - kubernetes_api
 1 sg rule association to igress from control host[publicip] - 6443
 1 sg rule association ro igress from jump host [jump.public_ip]-6443
 output kubernetes_api_dns_name" {
-  value = "${aws_elb.kubernetes_api.dns_name}"
+  value = aws_elb.kubernetes_api.dns_name
 } 
 
 
@@ -79,7 +79,7 @@ output kubernetes_api_dns_name" {
 [worker]
 ec2 instance worker count-3 subnet - kubernetes, private ip  sg id - kubernetes
 output "kubernetes_workers_public_ip" {
-  value = "${join(",", aws_instance.worker.*.public_ip)}"
+  value = join(",", aws_instance.worker.*.public_ip)
 }	
 
 
@@ -91,11 +91,11 @@ ec2 instance etcd count-3 subnet - kubernetes private ip sg id - kubernetes
 ec2 instance - 1 jump ${var.vpc_name}-jumphost-0
 
 output "jumphost_dns_name" {
-  value = "${aws_instance.jump.public_dns}"
+  value = aws_instance.jump.public_dns
 }
 
 output "jumphost_ip_address" {
-  value = "${aws_instance.jump.public_ip}"
+  value = aws_instance.jump.public_ip
 }
 
 

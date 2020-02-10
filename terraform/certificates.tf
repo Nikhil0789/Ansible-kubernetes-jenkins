@@ -37,7 +37,7 @@ data "template_file" "certificates" {
 
 resource "null_resource" "certificates" {
   triggers =  {
-    template_rendered = "${ data.template_file.certificates.rendered }"
+    template_rendered =  data.template_file.certificates.rendered
   }
 
   provisioner "local-exec" {

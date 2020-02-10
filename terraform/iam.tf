@@ -61,7 +61,7 @@ EOF
 # Role policy
 resource "aws_iam_role_policy" "kubernetes-controller" {
   name = "${var.vpc_name}-controller"
-  role = "${aws_iam_role.kubernetes-controller.id}"
+  role = aws_iam_role.kubernetes-controller.id
   policy = <<EOF
 {
   "Version": "2012-10-17",
@@ -93,7 +93,7 @@ EOF
 
 resource "aws_iam_role_policy" "kubernetes-worker" {
   name = "${var.vpc_name}-worker"
-  role = "${aws_iam_role.kubernetes-worker.id}"
+  role = aws_iam_role.kubernetes-worker.id
   policy = <<EOF
 {
     "Version": "2012-10-17",
@@ -138,7 +138,7 @@ EOF
 
 resource "aws_iam_role_policy" "kubernetes-etcd" {
   name = "${var.vpc_name}-etcd"
-  role = "${aws_iam_role.kubernetes-etcd.id}"
+  role = aws_iam_role.kubernetes-etcd.id
   policy = <<EOF
 {
     "Version": "2012-10-17",
@@ -156,15 +156,15 @@ EOF
 # IAM Instance Profile for Controller
 resource  "aws_iam_instance_profile" "kubernetes-controller" {
   name = "${var.vpc_name}-controller"
-  role = ["${aws_iam_role.kubernetes-controller.name}"]
+  role = aws_iam_role.kubernetes-controller.name
 }
 
 resource  "aws_iam_instance_profile" "kubernetes-worker" {
   name = "${var.vpc_name}-worker"
-  role = ["${aws_iam_role.kubernetes-worker.name}"]
+  role = aws_iam_role.kubernetes-worker.name
 }
 
 resource  "aws_iam_instance_profile" "kubernetes-etcd" {
   name = "${var.vpc_name}-etcd"
-  role = ["${aws_iam_role.kubernetes-etcd.name}"]
+  role = aws_iam_role.kubernetes-etcd.name
 }
