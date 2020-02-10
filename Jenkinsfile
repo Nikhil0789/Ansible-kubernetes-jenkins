@@ -1,8 +1,8 @@
 pipeline {
     agent any
+    def tfHome = tool name: 'terraform'
     environment {
-        def tfHome = tool name: 'terraform'
-        env.PATH = "${tfHome}:${env.PATH}"
+        PATH = "${tfHome}:${PATH}"
 
     }
     stages {
