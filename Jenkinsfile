@@ -1,6 +1,8 @@
 pipeline {
     agent any
-    def tfHome = tool name: 'terraform'
+    script {
+        def tfHome = tool name: 'terraform'
+    }
     environment {
         PATH = "${tfHome}:${PATH}"
 
