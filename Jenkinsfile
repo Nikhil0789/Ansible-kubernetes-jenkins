@@ -40,7 +40,7 @@ pipeline {
            stage('Provision AWS CLOUD') {
                steps {
                    dir('terraform') {
-                       sh 'terraform plan --var-file=dev.tfvars -o kubernetes.plan'
+                       sh 'terraform plan -var-file=dev.tfvars -o kubernetes.plan'
                        sh 'terraform apply kubernetes.plan'
 
 
