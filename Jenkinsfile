@@ -70,7 +70,7 @@ pipeline {
 
                              withCredentials([usernamePassword(credentialsId: '5176c908-8ef7-4a6b-89a9-8fd8bca878eb', passwordVariable: 'AWS_SECRET_ACCESS_KEY', usernameVariable: 'AWS_ACCESS_KEY_ID')]) {
                                  sh 'ansible --version'
-                                 // sh 'ansible-playbook infra.yaml'
+                                 sh 'ansible-playbook infra.yaml'
                              }
                          }
                      }
