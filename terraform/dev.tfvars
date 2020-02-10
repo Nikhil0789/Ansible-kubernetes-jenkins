@@ -23,7 +23,7 @@ kubernetes_pod_cidr = "10.0.32.0/19"
 kubernetes_cluster_api = "10.0.2.1"
 kubernetes_cluster_dns = "10.0.2.10"
 
-default_ami = "ami-046842448f9e74e7d"
+default_ami = "ami-0d58800f291760030"
 default_instance_user = "ubuntu"
 
 instance_types = {
