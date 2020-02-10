@@ -67,7 +67,10 @@ pipeline {
                          script {
                              def ansible = tool name: 'ansible'
                              env.PATH = "${ansible}:${env.PATH}"
+
                          }
+                         sh 'which ansible'
+                         sh 'ansible --version'
                          }
                  }
 
