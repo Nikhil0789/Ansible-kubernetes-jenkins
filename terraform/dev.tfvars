@@ -1,5 +1,5 @@
-region = "us-east-1"
-zone = "us-east-1b"
+region = "us-west-2"
+zone = "us-west-2b"
 
 default_keypair_name = "Ansible"
 ssh_private_key_path = "../Ansible.pem"
